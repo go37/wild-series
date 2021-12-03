@@ -1,0 +1,15 @@
+// assets/styles/app.scss
+
+// customize some Bootstrap variables
+$primary: lavender;
+$secondary:indigo;
+
+// the ~ allows you to reference things in node_modules
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: $primary;
+    color: $secondary;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
